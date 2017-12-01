@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 });
 
 //使用前一定要替换以下地址
-var alipay_link = 'HTTPS://QR.ALIPAY.COM/FKX030126KTDDQSMUS9AA3';
+var alipay_link = 'HTTPS://QR.ALIPAY.COM/FKX00745ZXVE5WLHDJDXC0';
 
 app.get('/code',function(req,res){
     var ua = req.headers['user-agent'];
