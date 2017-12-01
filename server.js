@@ -24,6 +24,6 @@ app.get('/code',function(req,res){
         res.send('请使用微信或者支付宝客户端扫码');
 });
 
-app.listen(3999, function () {
-  console.log('Example app listening on port 3999')
+app.listen(80, function () {
+  console.log('Example app listening on port 80')
 })
